@@ -1,0 +1,24 @@
+Imagine that you are working as a software developer in a very prestigious video games company.
+In this project you have to create orcs characters for the video game Lord of the Rings.
+Code a class in a python script that represents them. The orcs will be defined through the following characteristics:
+name (e.g. “Ogrorg”), skill (e.g. 9.4) and strength (e.g. 4.3).
+In addition, some orcs own a weapon and other do not own it.
+
+
+Implement the class using the principles of Object-Oriented Programming (marks depend on the right use of these principles).
+Access to all member variables should be provided through getters and setters (i.e. getBalance(), setBalance()).
+In addition, properties must be used (declared properties and decorator properties).
+The class must also provide a constructor to initialise instances, along with the method that returns
+a string representation of an instance of the class.
+
+You must overload the “>” operator in order to determine if an orc is “greater” than another in terms of fighting.
+An orc is “greater” than another orc if both orcs do not own
+weapons and the first orc has greater strength. However if both orcs own weapons the “greatest” is the most skilled orc.
+If an orc owns a weapon and the other does not own it, then the orc with a weapon is the “greatest”.
+The orc has a functionality, which is attacking to another orc. If an orc is “greater” (use the overloaded operator)
+than another orc, then he wins and his skills increase in a 5%. In addition, a message that specifies who is the winner
+orc is printed on the screen. Otherwise (there is no “greater” orc), they both loose. Create a test script for checking
+all the functionalities of the orc class by importing the module orc. In addition, code a function that writes an instance
+ of an object to a file using shelves. The filename should be made up of the word orc followed by the orc’s name.
+
+
