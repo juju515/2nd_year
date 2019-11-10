@@ -1,5 +1,7 @@
 # IntProgramming
 2nd year module related work
 
-yeah...
-Nothing to see here... really...
+Yeah.
+Nothing to see here... really.
+I'll just use this to save and share some of my college work.
+Nothing important.
